@@ -70,7 +70,3 @@ def turtleworld():
             tlist[i].setheading(tlist[i].towards(tlist[j]))
 
 turtleworld()
-        
-
-
-

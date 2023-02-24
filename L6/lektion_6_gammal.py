@@ -38,10 +38,19 @@ def extend(lista, x):
         lista.append(i)
     return lista
 
+def round_list(a_list, ndigits):
+    newlist = []
+    for elem in a_list:
+        newlist.append(round(elem,ndigits))
+    return newlist
+
+    #=====or one liner======
+    # return [round(elem,ndigits) for elem in a_list]
+
+
 
 list = [1, 2, 3]
 x = [4, 5, 6]
-#print(extend(list, x))
 
 
 def remove_all(lista, x):
@@ -51,7 +60,6 @@ def remove_all(lista, x):
 
 
 list2 = [3, 2, 4, 5, 3, 3, 2, 3]
-nylista = [e for e in list2 if e != x]
-#print(nylista)
 print(list2)
 print(smooth(list2))
+print(round_list(smooth(list2),2))

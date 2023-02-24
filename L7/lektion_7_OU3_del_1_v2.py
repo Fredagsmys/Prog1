@@ -29,7 +29,6 @@ for i in range(len(text_numbers)):
     text_total.append(text_numbers[i] + ' '+ text_letters[i])
 
 
-
 print('antal ord: ',len(wordlist))
 print('antal olika ord: ', len(text_total))
 m = int(input('hur många av de ovanligaste orden vill du veta? '))
@@ -41,12 +40,3 @@ text_total_letters = re.findall(r'[a-zA-ZåäöÅÄÖ]+',str(text_total))
 print('de ovanligaste orden är ',text_total_letters[:m])
 
 print('de vanligaste orden är ',text_total_letters[:-n-1:-1])
-
-
-
-
-
-
-
-
-

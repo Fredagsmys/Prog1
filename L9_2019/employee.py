@@ -16,5 +16,5 @@ class employee:
 
 
 emp_1 = employee('Max', 'Mattsson', 50000)
-emp_2 = employee('Cj', 'Carlsson', 40000)
+emp_2 = employee('förnamn', 'efternamn', 40000)
 print(emp_1.fullname())

@@ -1,6 +1,6 @@
 import pickle
 number_assignments = 2
-filename = 'students'
+filename = 'students.txt'
 grades = ('S', 'G', 'R', 'U', 'F') 
 passed = ('S', 'G', 'R')
 

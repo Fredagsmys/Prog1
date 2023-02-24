@@ -1,5 +1,3 @@
-
-
 from statistics import mean, median
 from time import sleep
 import destinations

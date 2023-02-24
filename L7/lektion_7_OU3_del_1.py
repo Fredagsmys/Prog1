@@ -28,16 +28,3 @@ n = int(input('hur många av de vanligaste orden vill du veta? '))
 print(f'de {m} ovanligaste orden är {text_letters[-m:]}')
 
 print(f'de {n} vanligaste orden är {text_letters[:n]}')
-
-
-
-
-
-
-
-
-
-
-
-
-
